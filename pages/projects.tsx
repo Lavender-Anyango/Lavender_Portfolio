@@ -1,7 +1,7 @@
 import React from 'react';
 import Head from 'next/head';
 import Image from 'next/image';
-import aydmedia from '../asset/aydmedia.png';
+import { AiOutlineGithub } from 'react-icons/ai';
 import Link from 'next/link';
 import { projectData } from '../data/data';
 
@@ -17,15 +17,21 @@ const projects = () => {
                 <div className="projects_container">
                     {projectData.map((item) => (
                         <div className="project" key={item.id}>
-                            <div className="project_name">Project name</div>
+                            <div className="project_name">{item.name}</div>
                             <div className="project_img">
-                                <Link href="https://davidalimazo.github.io/portfolio.github.io/">
-                                    <Image src={aydmedia} width={500} height={305} alt="aydmedia" />
+                                <Link href={item.link}>
+                                    <Image src={item.img} alt={item.name} priority={true} />
                                 </Link>
                             </div>
                             <div className="project_btns">
-                                <button>Source Code</button>
-                                <button style={{ background: 'rgba(97, 94, 214, 0.18)' }}>solo</button>
+                                <button disabled={item.disabled} style={{ opacity: item.disabled ? 0.3 : 1 }}>
+                                    <Link href={item.repo}>
+                                        <AiOutlineGithub style={{ marginRight: '10px' }} /> Source Code
+                                    </Link>
+                                </button>
+                                <button disabled={true} style={{ background: 'rgba(97, 94, 214, 0.18)' }}>
+                                    {item.collabo}
+                                </button>
                             </div>
                         </div>
                     ))}

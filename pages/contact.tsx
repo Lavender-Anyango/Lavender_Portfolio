@@ -102,7 +102,7 @@ export default function Contact() {
                             {contactData.map((item) => (
                                 <div className="socials" key={item.id}>
                                     <div className="left">
-                                        <Image src={item.icon} alt="github" width={24} height={23.41} style={{ width: 'auto', height: 'auto' }} />
+                                        <Image priority={true} src={item.icon} alt="github" />
                                         <span>{item.name}</span>
                                     </div>
                                     <div className="right">{item.link}</div>

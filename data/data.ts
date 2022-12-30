@@ -89,7 +89,15 @@ export const contactData = [
 ];
 
 export const projectData = [
-    { id: 0, name: 'My Portfolio', link: '#', collabo: 'solo', img: portfolio, repo: '#', disabled: false },
+    {
+        id: 0,
+        name: 'My Portfolio',
+        link: '#',
+        collabo: 'solo',
+        img: portfolio,
+        repo: 'https://github.com/Davidalimazo/nextecommerce',
+        disabled: false
+    },
     {
         id: 1,
         name: 'AYD Media',
@@ -106,7 +114,7 @@ export const projectData = [
         collabo: 'solo',
         img: designlotw,
         repo: 'https://github.com/Davidalimazo/adebisi_portfolio',
-        disabled: true
+        disabled: false
     },
     {
         id: 3,
@@ -114,13 +122,13 @@ export const projectData = [
         link: 'https://comrade.ng/',
         collabo: 'collaborated',
         img: comradeng,
-        repo: 'https://gitlab.com/comradeng/comradeng',
+        repo: '',
         disabled: true
     },
     {
         id: 4,
         name: 'Ayd Dashboard',
-        link: 'https://https://ayd_dashboard.surge.sh/',
+        link: 'https://ayd_dashboard.surge.sh/',
         collabo: 'solo',
         img: aydmedia_dashboard,
         disabled: false,
@@ -141,7 +149,7 @@ export const projectData = [
         link: 'https://getpocketmoni.com/mypocketmoni',
         collabo: 'collaborated',
         img: pocketmoni,
-        repo: '#',
+        repo: '',
         disabled: true
     }
 ];
