@@ -153,3 +153,37 @@ export const projectData = [
         disabled: true
     }
 ];
+
+export const experienceData = [
+    {
+        id: 0,
+        title: 'Software Engineer',
+        company: 'eTranzact International PLC',
+        date: '2022 - present',
+        details: 'Developed payment API using Java and Spring Boot'
+    },
+    {
+        id: 1,
+        title: 'Frontend Developer',
+        company: 'ComradeNG',
+        date: '2021 - 2022',
+        details:
+            'Worked as an assistant lead engineer to develop a voter application to sensitive the public on voting and voter education using react'
+    },
+    {
+        id: 2,
+        title: 'Back End Developer',
+        company: 'Zuri Team, Inc',
+        date: '2021 - 2022',
+        details:
+            'Built a flight booking API to book traveling tickets thereby reducing queues by 40%, Secured API endpoints, thereby improving security by 45% with Node'
+    },
+    {
+        id: 3,
+        title: 'Full Stack Developer',
+        company: 'AYD Media',
+        date: '2019 - 2020',
+        details:
+            'Completed the integration of frontend and backend web applications by combining knowledge of frontend and backend programming languages'
+    }
+];

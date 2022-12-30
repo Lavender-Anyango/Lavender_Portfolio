@@ -94,7 +94,7 @@ export default function Contact() {
                 </div>
                 <div className="contact_right">
                     <div className="img_div">
-                        <Image src={profileImg} priority={true} alt="alimazoya david" width={406} height={614} />
+                        <Image src={profileImg} priority={true} alt="alimazoya david" />
                     </div>
                     <div className="contact_right_socials">
                         <div className="socials_title">You can also get in touch with me via any of these links.</div>
