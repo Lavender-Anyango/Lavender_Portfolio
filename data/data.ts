@@ -168,7 +168,7 @@ export const experienceData = [
         company: 'ComradeNG',
         date: '2021 - 2022',
         details:
-            'Worked as an assistant lead engineer to develop a voter application to sensitive the public on voting and voter education using react'
+            'Worked as an assistant lead engineer to develop a voter application to sensitize the public on voting and voter education using react'
     },
     {
         id: 2,
