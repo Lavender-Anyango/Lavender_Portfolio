@@ -719,6 +719,9 @@ ul li {
     .proficiency_areas {
         flex-direction: column;
     }
+    .proficiency_main_text {
+        font-size: 15px;
+    }
     .ul_skills_container {
         width: 100%;
     }
@@ -777,5 +780,8 @@ ul li {
     }
     .experience_icon_style {
         font-size: 10px;
+    }
+    .proficiency_main_text {
+        font-size: 15px;
     }
 }

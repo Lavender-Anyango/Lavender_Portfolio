@@ -15,7 +15,11 @@ export default function Introduction() {
                 <div className="intro_name">Alimazoya David</div>
                 <div className="intro_name_bar"></div>
                 <div className="inro_view_cv">
-                    <Button text="View CV" isLink={true} link="https://aydmediasolution.hackerresume.io/60ac2ca6-a5ab-42a9-904d-5883c7044e5a" />
+                    <Button
+                        text="View CV"
+                        isLink={true}
+                        link="https://docs.google.com/document/d/1j7rAYYci5q39VPb33H5zuhEqyciprz2yw2Nn9IKokCw/edit?usp=sharing"
+                    />
                 </div>
             </div>
             <div className="intro_right">
