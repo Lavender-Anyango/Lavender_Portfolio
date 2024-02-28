@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { useState } from 'react';
 import styles from '../styles/navbar.module.css';
-import { useRouter } from 'next/router';
+import { usePathname } from 'next/navigation';
 import { navbar } from '../data/data';
 import CloseIcon from '@mui/icons-material/Close';
 import MenuIcon from '@mui/icons-material/Menu';
@@ -10,9 +10,9 @@ import useWindowSize from '../hooks/useWindowSize';
 export default function Navbar() {
     const width = useWindowSize();
     const [isMobile, setIsMobile] = useState(false);
-    const router = useRouter();
+    const router = usePathname();
     const isActive = (route: string) => {
-        if (route === router.pathname) {
+        if (route === router) {
             return 'navbarActive';
         }
         return '';
