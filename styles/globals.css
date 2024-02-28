@@ -21,20 +21,6 @@ a {
 ul li {
     list-style-type: none;
 }
-
-html {
-    overflow: scroll;
-    overflow-x: hidden;
-}
-::-webkit-scrollbar {
-    width: 0; /* Remove scrollbar space */
-    background: transparent; /* Optional: just make scrollbar invisible */
-}
-/* Optional: show position indicator in red */
-::-webkit-scrollbar-thumb {
-    background: transparent;
-}
-
 /*Navbar */
 .navbarActive {
     border-bottom: 3px solid #615ed6;
@@ -221,7 +207,7 @@ html {
     font-family: Libre Baskerville, sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 18px;
     line-height: 36px;
     text-align: center;
     color: #838599;
@@ -343,7 +329,6 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    overflow-x: scroll;
     justify-content: space-evenly;
     gap: 1rem;
     margin-top: 2.5rem;

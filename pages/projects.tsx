@@ -19,7 +19,7 @@ const projects = () => {
                         <div className="project" key={item.id}>
                             <div className="project_name">{item.name}</div>
                             <div className="project_img">
-                                <Link href={item.link} target="_blank">
+                                <Link href={item.link}>
                                     <Image src={item.img} alt={item.name} priority={true} />
                                 </Link>
                             </div>

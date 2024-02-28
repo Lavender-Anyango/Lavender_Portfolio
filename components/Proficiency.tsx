@@ -11,7 +11,7 @@ const Proficiency = () => {
             <div className="intro_name_bar"></div>
             <div className="proficiency_main_text">
                 Experienced Full-Stack Developer with a demonstrated history of working in the financial service industry. Skilled in diverse
-                programming languages such as JavaScript, Typescript, Dart and Java, a great team player with proven broad knowledge of technologies that
+                programming languages such as JavaScript, Typescript and Java, a great team player with proven broad knowledge of technologies that
                 can enable and facilitate ease of project development, deployment, maintenance and support of software systems which will enable
                 innovative products function and scale maximally.
             </div>

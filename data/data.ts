@@ -11,7 +11,6 @@ import designlotw from '../asset/designlotw-home.png';
 import pocketmoni from '../asset/pocketMoni.png';
 import robonytics from '../asset/robonytics-landing-page.png';
 import portfolio from '../asset/newportfolio.png';
-import mpb from '../asset/mpb_app.png';
 
 export const navbar = [
     { id: 0, name: 'Home', link: '/' },
@@ -31,14 +30,14 @@ export const skillsData = [
         { id: 2, name: 'Typescript' },
         { id: 3, name: 'Next' },
         { id: 4, name: 'React' },
-        { id: 5, name: 'Flutter' }
+        { id: 5, name: 'Node' }
     ],
     [
         { id: 0, name: 'Spring boot' },
         { id: 1, name: 'MYSQL' },
         { id: 2, name: 'MongoDB' },
         { id: 3, name: 'JPA' },
-        { id: 4, name: 'Oracle' },
+        { id: 4, name: 'EJS' },
         { id: 5, name: 'Docker' }
     ],
     [
@@ -62,27 +61,24 @@ export const skillsData = [
 export const reviewsData = [
     {
         id: 0,
-        name: 'Pelumi',
-        company: 'Kuda',
-        text: 'Highly efficient software developer, with expertise in multiple programming languages, he has the ability to carry out project at a quick pace while delivering "grade A" software projects for end users. I fully recommend him for any software engineering role, he will deliver.'
+        name: 'Bolaji',
+        company: 'ComradeNG',
+        text:
+            'I rarely come across real talents who stand out like Alimazoya. I had the pleasure of working with Alimazoya for a year at comradeNG as his team lead. Alimazoya`s ability to handle multiple software projects was exceptional, this made a dramatic increase in the productivity level of our engineering team. He is smart, dedicated and reliable.'
     },
     {
         id: 1,
         name: 'Michael',
-        company: 'Clane',
-        text: 'Alimazoya is a thoughtful resourceful full stack developer who is always willing to learn and contribute meaningfully to organizational group.'
+        company: 'eTranzact PLC',
+        text:
+            'Alimazoya is a thoughtful and resourceful full stack developer who is always willing to learn and contribute meaningfully to organizational growth, I worked with him at eTranzact PLC to build backend microservices and APIs'
     },
     {
         id: 2,
         name: 'Jeff',
         company: 'Upwork Inc',
-        text: 'Alimazoya is a great developer that created a live stream embed player for my website, making it possible for me to stream from my website to multiple media'
-    },
-    {
-        id: 3,
-        name: 'Bolaji',
-        company: 'ComradeNG',
-        text: 'I rarely come across real talents who stand out like Alimazoya. I had the pleasure of working with Alimazoya for a year at comradeNG as his team lead. Alimazoya`s ability to handle multiple software projects was exceptional, this made a dramatic increase in the productivity level of our engineering team. He is smart, dedicated and reliable.'
+        text:
+            'Alimazoya is a great developer that created a live stream embed player for my website, making it possible for me to stream from my website to multiple media'
     }
 ];
 
@@ -104,15 +100,6 @@ export const projectData = [
     },
     {
         id: 1,
-        name: 'MPB Verification',
-        link: 'https://play.google.com/store/apps/details?id=com.etranzact.mpbVerificationApp&hl=en_US',
-        collabo: 'solo',
-        img: mpb,
-        repo: '',
-        disabled: true
-    },
-    {
-        id: 2,
         name: 'AYD Media',
         link: 'https://davidalimazo.github.io/portfolio.github.io/',
         collabo: 'solo',
@@ -121,7 +108,7 @@ export const projectData = [
         disabled: false
     },
     {
-        id: 3,
+        id: 2,
         name: 'Designlotw',
         link: 'https://designlotw.com/',
         collabo: 'solo',
@@ -130,7 +117,7 @@ export const projectData = [
         disabled: false
     },
     {
-        id: 4,
+        id: 3,
         name: 'ComradeNG',
         link: 'https://comrade.ng/',
         collabo: 'collaborated',
@@ -139,7 +126,7 @@ export const projectData = [
         disabled: true
     },
     {
-        id: 5,
+        id: 4,
         name: 'Ayd Dashboard',
         link: 'https://ayd_dashboard.surge.sh/',
         collabo: 'solo',
@@ -148,7 +135,7 @@ export const projectData = [
         repo: 'https://github.com/Davidalimazo/ayd_dashboard'
     },
     {
-        id: 6,
+        id: 5,
         name: 'Robonytics',
         link: 'https://roboadvisor-client.vercel.app/',
         collabo: 'solo',
@@ -157,7 +144,7 @@ export const projectData = [
         disabled: false
     },
     {
-        id: 7,
+        id: 6,
         name: 'PocketMoni Dashboard',
         link: 'https://getpocketmoni.com/mypocketmoni',
         collabo: 'collaborated',
@@ -173,7 +160,7 @@ export const experienceData = [
         title: 'Software Engineer',
         company: 'eTranzact International PLC',
         date: '2022 - present',
-        details: 'Developed payment API using Java and Spring Boot, Developed and deployed Mobile Applications using Flutter'
+        details: 'Developed payment API using Java and Spring Boot'
     },
     {
         id: 1,

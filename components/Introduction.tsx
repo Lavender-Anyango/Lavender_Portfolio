@@ -27,7 +27,7 @@ export default function Introduction() {
                 <div className="intro_right__title">Software Engineer, Fullstack Developer, based in Nigeria.</div>
                 <div className="intro_right_main_text">
                     Creative full-stack developer with over 3+ years of experience in producing robust code for high-value companies with top-notch
-                    coding skills in JavaScript, Typescript, Dart and Java.
+                    coding skills in JavaScript and Java.
                 </div>
                 <div className="intro_right_social_icons">
                     <Link href="https://github.com/Davidalimazo">
