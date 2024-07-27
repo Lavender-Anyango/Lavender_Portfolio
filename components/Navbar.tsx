@@ -24,7 +24,7 @@ export default function Navbar() {
         <div className="ixed_top" id={styles.header}>
             <div className="container">
                 <h1 className="logo">
-                    <Link href="/">Alimazoya David</Link>
+                    <Link href="/">Lavender Anyango</Link>
                 </h1>
                 <nav className="nav">
                     <ul className="nav_menu">

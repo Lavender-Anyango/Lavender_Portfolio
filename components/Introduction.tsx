@@ -3,7 +3,7 @@ import styles from '../styles/Intro.module.css';
 import emailIcon from '../asset/email.png';
 import linkedinIcon from '../asset/linkedin.png';
 import githubIcon from '../asset/github.png';
-import { Button } from './index';
+import Button from './Button';
 import Link from 'next/link';
 import { MdLocalPostOffice } from 'react-icons/md';
 
@@ -12,7 +12,7 @@ export default function Introduction() {
         <div className="intro_container">
             <div className="intro_left">
                 <div className="intro_left_intro_text">HI THERE👋🏻</div>
-                <div className="intro_name">Alimazoya David</div>
+                <div className="intro_name">Lavender Anyango</div>
                 <div className="intro_name_bar"></div>
                 <div className="inro_view_cv">
                     <Button
@@ -24,20 +24,22 @@ export default function Introduction() {
             </div>
             <div className="intro_right">
                 <div className="intro_right_intro_text">INTRODUCTION</div>
-                <div className="intro_right__title">Software Engineer, Fullstack Developer, based in Nigeria.</div>
+                <div className="intro_right__title">Software Engineer, Fullstack Developer, based in Nairobi, Kenya.</div>
                 <div className="intro_right_main_text">
-                    Creative full-stack developer with over 3+ years of experience in producing robust code for high-value companies with top-notch
-                    coding skills in JavaScript, Java and Dart.
+                    Innovative full-stack developer with over a year of hands-on experience in building dynamic and efficient web applications.
+                    Proficient in JavaScript, Python, and C, with a proven track record of crafting high-quality, scalable code for impactful
+                    projects. Eager to leverage cutting-edge technologies and methodologies while continually expanding my skill set and adapting to
+                    new challenges in a collaborative, fast-paced environment
                 </div>
                 <div className="intro_right_social_icons">
-                    <Link href="https://github.com/Davidalimazo">
+                    <Link href="https://github.com/ven8462">
                         {' '}
                         <Image src={githubIcon} height={23} width={23} alt="github icon" />
                     </Link>
-                    <Link href="https://www.linkedin.com/in/alimazoya-david">
+                    <Link href="https://www.linkedin.com/in/lavender-anyango-a24a2a2b2/">
                         <Image src={linkedinIcon} height={23} width={23} alt="linkedin icon" />
                     </Link>
-                    <Link href="mailto:davidalimazo@gmail.com">
+                    <Link href="anyangolavenderr@gmail.com">
                         <MdLocalPostOffice fontSize="33px" />
                     </Link>
                 </div>

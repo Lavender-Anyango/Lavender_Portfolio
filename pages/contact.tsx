@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import { Button } from '../components';
-import profileImg from '../asset/alimazoya.png';
+// import profileImg from '../asset/alimazoya.png';
+import profileImg from '../asset/lavender.jpg';
 import { contactData } from '../data/data';
 import { useState } from 'react';
 import { useFormik } from 'formik';
@@ -34,7 +35,7 @@ export default function Contact() {
     return (
         <>
             <Head>
-                <title>Alimazoya | Full Stack Developer - Contact</title>
+                <title>Lavender | Full Stack Developer - Contact</title>
             </Head>
             <div className="contact">
                 <div className="contact_left">
@@ -94,7 +95,7 @@ export default function Contact() {
                 </div>
                 <div className="contact_right">
                     <div className="img_div">
-                        <Image src={profileImg} priority={true} alt="alimazoya david" />
+                        <Image src={profileImg} priority={true} alt="lavender anyango" />
                     </div>
                     <div className="contact_right_socials">
                         <div className="socials_title">You can also get in touch with me via any of these links.</div>

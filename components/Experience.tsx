@@ -5,7 +5,7 @@ import { experienceData } from '../data/data';
 const Experience = () => {
     return (
         <div className="experience">
-            <div className="proficiency_title">Experience</div>
+            <div className="proficiency_title">Education</div>
             <div className="intro_name_bar"></div>
             <div className="experience_timeline_container">
                 <VerticalTimeline lineColor="linear-gradient(8.53deg, rgba(97, 94, 214, 0.17) 73.83%, rgba(92, 98, 125, 0) 97.07%)">

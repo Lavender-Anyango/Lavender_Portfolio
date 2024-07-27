@@ -5,7 +5,7 @@ const Home = () => {
     return (
         <>
             <Head>
-                <title>Alimazoya | Full Stack Developer - Home</title>
+                <title>Lavender Anyango | Full Stack Developer - Home</title>
             </Head>
             <Introduction />
             <Proficiency />

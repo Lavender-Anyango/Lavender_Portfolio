@@ -11,7 +11,11 @@ import designlotw from '../asset/designlotw-home.png';
 import pocketmoni from '../asset/pocketMoni.png';
 import robonytics from '../asset/robonytics-landing-page.png';
 import portfolio from '../asset/newportfolio.png';
+import myportfolio from '../asset/myportfolio.png';
 import mpb from '../asset/mpb_app.png';
+import icook from '../asset/icook.png'
+import kipepeo from '../asset/kipepeo.png'
+import akili from '../asset/akili.png'
 
 export const navbar = [
     { id: 0, name: 'Home', link: '/' },
@@ -27,69 +31,58 @@ export const proficiency = [
 export const skillsData = [
     [
         { id: 0, name: 'Javascript' },
-        { id: 1, name: 'Java' },
+        { id: 1, name: 'Python' },
         { id: 2, name: 'Typescript' },
         { id: 3, name: 'Next' },
         { id: 4, name: 'React' },
-        { id: 5, name: 'Dart' }
     ],
     [
-        { id: 0, name: 'Spring boot' },
+        { id: 0, name: 'Postgresql' },
         { id: 1, name: 'MYSQL' },
         { id: 2, name: 'MongoDB' },
-        { id: 3, name: 'JPA' },
-        { id: 4, name: 'Flutter' },
-        { id: 5, name: 'Docker' }
+        { id: 3, name: 'Redis' },
+        { id: 5, name: 'Product Management' }
     ],
     [
-        { id: 0, name: 'Redux' },
-        { id: 1, name: 'Technical Support' },
-        { id: 2, name: 'Restful service development' },
-        { id: 3, name: 'Microfrontends' },
-        { id: 4, name: 'Microservices' },
-        { id: 5, name: 'GraphQL' }
-    ],
-    [
-        { id: 0, name: 'HTML' },
-        { id: 1, name: 'CSS' },
+        { id: 0, name: 'HTML/CSS' },
         { id: 2, name: 'Git' },
-        { id: 3, name: 'Solidity' },
-        { id: 4, name: 'Blockchain' },
-        { id: 5, name: 'Value Added Service support' }
+        { id: 3, name: 'Data Structures' },
+        { id: 4, name: 'UI/ UX Design' },
+        { id: 5, name: 'UX Research' }
     ]
 ];
 
 export const reviewsData = [
     {
         id: 0,
-        name: 'Pelumi',
-        company: 'Kuda',
-        text: 'Highly efficient software developer, with expertise in multiple programming languages, he has the ability to carry out project at a quick pace while delivering "grade A" software projects for end users. I fully recommend him for any software engineering role, he will deliver.'
+        name: 'Linda Kamau',
+        company: 'AkiraChix',
+        text: 'Highly efficient software developer with expertise in multiple programming languages. Lavender has demonstrated the ability to complete projects quickly while delivering high-quality software. I fully recommend Lavender for any software engineering role; they will excel.'
     },
     {
         id: 1,
-        name: 'Bolaji',
-        company: 'ComradeNG',
-        text: 'I rarely come across real talents who stand out like Alimazoya. I had the pleasure of working with Alimazoya for a year at comradeNG as his team lead. Alimazoya`s ability to handle multiple software projects was exceptional, this made a dramatic increase in the productivity level of our engineering team. He is smart, dedicated and reliable.'
+        name: 'Irene Aragona',
+        company: 'ALX',
+        text: 'I rarely encounter talents who stand out like Lavender.I was impressed by their ability to manage multiple software projects effectively, significantly boosting our team’s productivity. Lavender is smart, dedicated, and reliable.She was chosen as one of the Learning Ambassadors because of her reliabilty and quick wits'
     },
     {
         id: 2,
-        name: 'Michael',
-        company: 'eTranzact PLC',
-        text: 'Alimazoya is a thoughtful and resourceful full stack developer who is always willing to learn and contribute meaningfully to organizational growth, I worked with him at eTranzact PLC to build backend microservices and APIs'
+        name: 'Tevin Isaac',
+        company: 'ICP',
+        text: 'Lavender is an exceptional developer who created a live stream embed player for my website. This development enabled me to stream content from my site to multiple media platforms seamlessly.'
     },
     {
         id: 3,
-        name: 'Jeff',
-        company: 'Upwork Inc',
-        text: 'Alimazoya is a great developer that created a live stream embed player for my website, making it possible for me to stream from my website to multiple media'
+        name: 'Brandon',
+        company: 'LinkedIn',
+        text: 'Lavender is a thoughtful and resourceful full-stack developer who is always eager to learn and contribute to organizational growth. I collaborated with Lavender to develop a backend microservices and Payment API while working on a product called Skin Soko, and their contributions were invaluable.'
     }
 ];
 
 export const contactData = [
-    { id: 0, name: 'Github profile:', icon: github, link: 'https://github.com/Davidalimazo' },
-    { id: 1, name: 'LinkedIn profile:', icon: linkedin, link: 'https://www.linkedin.com/in/alimazoya-david' },
-    { id: 2, name: 'Email:', icon: email, link: 'Davidalimazo@gmail.com' }
+    { id: 0, name: 'Github profile:', icon: github, link: 'https://github.com/ven8462' },
+    { id: 1, name: 'LinkedIn profile:', icon: linkedin, link: 'https://www.linkedin.com/in/lavender-anyango-a24a2a2b2/' },
+    { id: 2, name: 'Email:', icon: email, link: 'anyangolavenderr@gmail.com' }
 ];
 
 export const projectData = [
@@ -98,105 +91,53 @@ export const projectData = [
         name: 'My Portfolio',
         link: '#',
         collabo: 'solo',
-        img: portfolio,
-        repo: 'https://github.com/Davidalimazo/nextecommerce',
+        img: myportfolio,
+        repo: 'https://github.com/Lavender-Anyango/Lavender_Portfolio',
         disabled: false
     },
     {
         id: 1,
-        name: 'MPB Verification App',
-        link: 'https://play.google.com/store/apps/details?id=com.etranzact.mpbVerificationApp&hl=en_US',
+        name: 'iCook',
+        link: 'https://github.com/ven8462/iCooK',
         collabo: 'solo',
-        img: mpb,
+        img: icook,
         repo: '#',
         disabled: false
     },
     {
         id: 2,
-        name: 'AYD Media',
-        link: 'https://davidalimazo.github.io/portfolio.github.io/',
-        collabo: 'solo',
-        img: aydmedia,
-        repo: 'https://github.com/Davidalimazo/portfolio.github.io',
+        name: 'AkiliQuiz',
+        link: 'https://akili-quiz.vercel.app/',
+        collabo: 'collaborated',
+        img: akili,
+        repo: 'https://github.com/Lavender-Anyango/AkiliQuiz',
         disabled: false
     },
     {
         id: 3,
-        name: 'Designlotw',
-        link: 'https://designlotw.com/',
+        name: 'Kipepeo',
+        link: 'https://www.figma.com/design/KTOfYOWEb09uQb2mFyhZtm/Kipepeo?node-id=0-1&t=roUeEWKlyYzzT9zd-1',
         collabo: 'solo',
-        img: designlotw,
-        repo: 'https://github.com/Davidalimazo/adebisi_portfolio',
-        disabled: false
-    },
-    {
-        id: 4,
-        name: 'ComradeNG',
-        link: 'https://comrade.ng/',
-        collabo: 'collaborated',
-        img: comradeng,
-        repo: '',
-        disabled: true
-    },
-    {
-        id: 5,
-        name: 'Ayd Dashboard',
-        link: 'https://ayd_dashboard.surge.sh/',
-        collabo: 'solo',
-        img: aydmedia_dashboard,
-        disabled: false,
-        repo: 'https://github.com/Davidalimazo/ayd_dashboard'
-    },
-    {
-        id: 6,
-        name: 'Robonytics',
-        link: 'https://roboadvisor-client.vercel.app/',
-        collabo: 'solo',
-        img: robonytics,
-        repo: 'https://github.com/Davidalimazo/roboadvisor-client',
-        disabled: false
-    },
-    {
-        id: 7,
-        name: 'PocketMoni Dashboard',
-        link: 'https://getpocketmoni.com/mypocketmoni',
-        collabo: 'collaborated',
-        img: pocketmoni,
-        repo: '',
-        disabled: true
+        img: kipepeo,
+        repo: 'https://www.figma.com/design/KTOfYOWEb09uQb2mFyhZtm/Kipepeo?node-id=0-1&t=roUeEWKlyYzzT9zd-1'
     }
 ];
 
 export const experienceData = [
     {
         id: 0,
-        title: 'Software Engineer',
-        company: 'eTranzact International PLC',
-        date: '2022 - present',
-        details: 'Developed payment API using Java and Spring Boot, Developed and deployed mobile applications with Flutter'
+        title: 'Information Technology',
+        company: 'codeHive - AkiraChix',
+        date: 'Feb, 2024 - present',
+        details:
+            'Currently in the codeHive program by AkiraChix undertaking both backend and frontend development, with a focus on Python and JavaScript. I have also delved into data and software architecture, UI/UX design, and UX research. Additionally, my skill set includes product management, Android development, machine learning, and IoT, equipping me with a diverse range of capabilities to tackle various technological challenges.'
     },
     {
         id: 1,
-        title: 'Frontend Developer',
-        company: 'ComradeNG',
-        date: '2021 - 2022',
+        title: 'Software Engineering - Backend Development',
+        company: 'ALX',
+        date: '2023 - 2024',
         details:
-            'Worked as an assistant lead engineer to develop a voter application to sensitize the public on voting and voter education using react'
-    },
-    {
-        id: 2,
-        title: 'Back End Developer',
-        company: 'Zuri Team, Inc',
-        date: '2021 - 2022',
-        details:
-            'Built a flight booking API to book traveling tickets thereby reducing queues by 40%, Secured API endpoints, thereby improving security by 45% with Node'
-    },
-    {
-        id: 3,
-        title: 'Full Stack Developer',
-        company: 'AYD Media',
-        date: '2019 - 2020',
-        details:
-            'Completed the integration of frontend and backend web applications by combining knowledge of frontend and backend programming languages'
+            'Gained expertise in server-side programming with Python, Java, and Node.js. Developed skills in API design, database management (SQL and NoSQL), and cloud services. Proficient in using tools like DataDog for monitoring and performance optimization, and NGINX for load balancing and web server management. Focused on building scalable applications, implementing security measures, and optimizing overall system performance'
     }
 ];

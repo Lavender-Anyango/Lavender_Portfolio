@@ -14,7 +14,7 @@ export default function Layouts({ children }: LayoutProps) {
             </div>
             <div className="footer">
                 <div>
-                    Copyright {new Date().getFullYear()} <span>@alimazoyadavid</span>
+                    Copyright {new Date().getFullYear()} <span>@anyangolavender</span>
                 </div>
             </div>
         </div>

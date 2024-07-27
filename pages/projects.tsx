@@ -9,7 +9,7 @@ const projects = () => {
     return (
         <>
             <Head>
-                <title>Alimazoya | Full Stack Developer - Projects</title>
+                <title>Lavender | Full Stack Developer - Projects</title>
             </Head>
             <div className="projects">
                 <div className="proficiency_title">Projects</div>

@@ -11,9 +11,9 @@ const Proficiency = () => {
             <div className="intro_name_bar"></div>
             <div className="proficiency_main_text">
                 Experienced Full-Stack Developer with a demonstrated history of working in the financial service industry. Skilled in diverse
-                programming languages such as JavaScript, Typescript, Java and Dart, a great team player with proven broad knowledge of technologies that
-                can enable and facilitate ease of project development, deployment, maintenance and support of software systems which will enable
-                innovative products function and scale maximally.
+                programming languages such as Python, JavaScript, Typescript, Kotlin and C, a great team player with proven broad knowledge of
+                technologies that can enable and facilitate ease of project development, deployment, maintenance and support of software systems which
+                will enable innovative products function and scale maximally.
             </div>
             <div className="proficiency_areas">
                 {proficiency.map((item) => (
@@ -24,7 +24,7 @@ const Proficiency = () => {
                 ))}
             </div>
             <div className="proficiency_button">
-                <Button text="View Github Profile" link="https://github.com/Davidalimazo" isLink={true} />
+                <Button text="View Github Profile" link="https://github.com/ven8462" isLink={true} />
             </div>
             <div className="proficiency_skills">
                 <div className="main_skills_container">
