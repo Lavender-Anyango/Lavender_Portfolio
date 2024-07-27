@@ -212,6 +212,7 @@ ul li {
     text-align: center;
     color: #838599;
     margin-top: 3rem;
+    justify-content: center;
 }
 .proficiency_areas {
     margin-top: 4rem;
