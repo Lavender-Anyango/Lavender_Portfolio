@@ -18,7 +18,7 @@ export default function Introduction() {
                     <Button
                         text="View CV"
                         isLink={true}
-                        link="https://docs.google.com/document/d/1j7rAYYci5q39VPb33H5zuhEqyciprz2yw2Nn9IKokCw/edit?usp=sharing"
+                        link="https://drive.google.com/file/d/1Ef7VToA5sfA9ctIuqi8EB9aL3zi-rmq6/view?usp=drive_link"
                     />
                 </div>
             </div>
